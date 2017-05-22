@@ -1,0 +1,150 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/1 "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+.w{
+    width: 979px;
+    margin: 0 auto;
+}
+
+.head{
+    margin-top: 39px;
+}
+.nav{
+    width: 100%;
+    /*height: ;*/
+}
+.nav1{
+    /*width: 100%;*/
+    height: 8px;
+    background-color: #822619;
+}
+.nav2{
+    /*width: 100%;*/
+    height:46px;
+    margin: 3px 0;
+    /*背景图 横向重复 居中*/
+    /*背景颜色*/
+    background: #1B6568 url(../img/diamond.png) repeat-x center;
+}
+.nav3{
+    height: 8px;
+    background-color: #822619;
+    width: 100%;
+    margin: auto;
+}
+.nav2 img{
+    /*position:relative;*//*相对定位*/
+    position: absolute;/*绝对定位*/
+    top: -31px;
+    left: 831px;
+}
+.nav2-1 li {
+    float: left;
+    line-height: 46px;
+    margin-right: 30px;
+}
+/*当前选择哪个页面亮*/
+.nav2-1 .curr a {
+    color: #E0E2D1;
+}
+
+.nav2-1 li a {
+    font-size: 20px;
+    color: #94c4c7;
+    text-decoration: none;    /*去掉下划线*/
+}
+
+.nav2-1 li a:hover {
+    color: #ebe9d7;
+}
+
+
+/*给最后一个元素设置特殊样式，设置margin为0*/
+.nav2-1 li.last {
+    margin: 0;
+}
+
+
+.top-border{
+    height: 8px;
+    background-color: #822619;
+    margin-top:30px;
+}
+
+.footer .footer-content{
+    background-color: #1B6568;
+    margin-top: 5px;
+}
+.footer .footer-content .left{
+    width: 210px;
+    float: left;
+}
+.hotline{
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.hotline-number{
+    color: white;
+    font-size: 20px;
+}
+.footer .left ul {
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.footer .left ul li {
+    float: left;
+    margin-right: 8px;
+}
+.footer .footer-content .middle{
+    width: 300px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 94px;
+    text-align: center;/*居中*/
+}
+.footer .footer-content .middle .home{
+    color: white;
+}
+.footer .footer-content .middle .home a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;    /*去掉下划线*/
+    line-height: 48px;
+}
+.footer .footer-content .middle .all{
+    color: white;
+    font-size: 14px;
+}
+
+.footer .footer-content .right{
+    float: left;
+    width: 256px;
+    margin-top:26px;
+    margin-left: 100px;
+}
+.footer .footer-content .right .all{
+    color: white;
+    font-size: 14px;
+}
+.footer .footer-content .right .enter{
+    width: 190px;
+    height: 28px;
+    background: url(../img/email.png) no-repeat ;
+    border: none;/*取消边框*/
+    outline: none;/*取消交叉框*/
+    margin-top: 14px;
+    margin-bottom: 13px;
+    padding: 0px 48px;/*盒子内文字内边距*/
+}
+.footer .footer-content .right .submit-btn{
+    margin: 10px;
+}

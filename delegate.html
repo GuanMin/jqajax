@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="addBtn">添加a标签</button>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script>00000
+
+        $('body').delegate('.btn','click',function () {
+            console.log('click了')
+        });
+
+
+        $('#addBtn').click(function () {
+            var $a = $('<a class="btn" href="#none">我是a标签</a>>');
+            $a.addClass('xx');
+            $('body').append(a);
+        })
+    })
+</script>
+</body>
+</html>

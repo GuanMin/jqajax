@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+    $.ajax({
+        url: "http://rec.www.mi.com/guesslike/get",
+        data: {
+            a: 2,
+            c: 'AA',
+            u: '1494819253336_1890'
+        },
+        dataType:'jsonp',
+        jsonpCallback:'recommend_guesslike',//回调函数名
+        success: function(result){
+            console.log(result);
+            var r = result.r;
+            for(var i in r){
+                console.log(r[i].n);
+            }
+        }
+    });
+</script>
+</body>
+</html>
